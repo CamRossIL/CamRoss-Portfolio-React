@@ -1,5 +1,6 @@
-import johndoeimg from "../assets/images/john-doe-about.jpg";
 import Soustitle from "./Soustitle";
+import ProgressBar from "../components/ProgressBar";
+import johndoeimg from "../assets/images/john-doe-about.jpg";
 
 function SectionHome() {
   return (
@@ -10,6 +11,7 @@ function SectionHome() {
             <div className="row">
               <div className="col-12 col-md-6">
                 <Soustitle title="A propos" />
+
                 <img src={johndoeimg} alt="John Doe" className="card-img-top mt-5 mb-2" />
                 <div className="card-text">
                   <p>
@@ -29,8 +31,10 @@ function SectionHome() {
                   </p>
                 </div>
               </div>
+
               <div className="col-12 col-md-6">
                 <Soustitle title="Mes compétences" />
+                <ProgressBar />
               </div>
             </div>
           </div>
