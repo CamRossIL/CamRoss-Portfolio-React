@@ -5,11 +5,12 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Legales from "./pages/Legales";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-    <Header/>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -17,8 +18,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/legales" element={<Legales />} />
       </Routes>
+      <Footer />
     </div>
   );
-} 
+}
 
 export default App;
