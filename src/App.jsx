@@ -4,10 +4,12 @@ import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Legales from "./pages/Legales";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
+    <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -17,6 +19,6 @@ function App() {
       </Routes>
     </div>
   );
-}
+} 
 
 export default App;
