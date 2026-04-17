@@ -1,4 +1,5 @@
 import johndoeimg from "../assets/images/john-doe-about.jpg";
+import Soustitle from "./Soustitle";
 
 function SectionHome() {
   return (
@@ -8,6 +9,7 @@ function SectionHome() {
           <div className="card-body">
             <div className="row">
               <div className="col-12 col-md-6">
+                <Soustitle title="A propos" />
                 <img src={johndoeimg} alt="John Doe" className="card-img-top mt-5 mb-2" />
                 <div className="card-text">
                   <p>
@@ -28,6 +30,7 @@ function SectionHome() {
                 </div>
               </div>
               <div className="col-12 col-md-6">
+                <Soustitle title="Mes compétences" />
               </div>
             </div>
           </div>
