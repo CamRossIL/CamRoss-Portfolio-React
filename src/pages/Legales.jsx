@@ -50,6 +50,37 @@ function Legales() {
                 </div>
               </div>
             </div>
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Hébergeur
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div className="accordion-body">
+                  <h3 className="fw-bold">alwaysdata</h3>
+                  <address>
+                    91 rue du Faubourg Saint-Honoré, 75008 Paris
+                  </address>
+                  <i className="bi bi-globe"></i>
+                  <a href="https://www.alwaysdata.com"> www.alwaysdata.com</a>
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
       </div>
