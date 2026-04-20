@@ -3,13 +3,11 @@ import Title from "../components/Title";
 function Legales() {
   return (
     <div>
-      <div>
-        <Title title="Mentions légales" text="" />
-      </div>
+      <Title title="Mentions légales" text="" />
       <div className="container my-5">
         <div className="col-lg-12">
           <div className="accordion" id="accordionExample">
-             <div className="accordion-item">
+            <div className="accordion-item">
               <h2 className="accordion-header">
                 <button
                   className="accordion-button"
@@ -78,9 +76,46 @@ function Legales() {
                 </div>
               </div>
             </div>
-
-
-
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Crédits
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                className="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div className="accordion-body">
+                  <h3 className="fw-bold">Crédits</h3>
+                  <p>
+                    Ce site a été réalisé par John Doe, étudiant au{" "}
+                    <a href="https://www.centre-europeen-formation.fr/">
+                      Centre européen de formation
+                    </a>
+                  </p>
+                  <p className="fst-italic">
+                    Les images utilises sur ce site sont libres de droits et ont
+                    été obtenues sur le site{" "}
+                    <a href="https://pixabay.com/fr/">Pixabay</a>
+                  </p>
+                  <p className="fst-italic">
+                    Le favicon de ce site a été fourni par{" "}
+                    <a href="https://pixabay.com/fr/" className="fst-italic">
+                      John Doe icons erstellt von Freepik - Flaticon
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
