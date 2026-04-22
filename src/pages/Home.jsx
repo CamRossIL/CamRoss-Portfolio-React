@@ -16,6 +16,7 @@ function Home() {
     <div>
       <Hero openModal={openModal} />
       <SectionHome/>
+      {showModal && <p>Modal</p> }
     </div>
   );
 }
