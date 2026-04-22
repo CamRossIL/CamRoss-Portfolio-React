@@ -6,6 +6,12 @@ function Home() {
  /*créer state affichage modal*/
   const [showModal, setShowModal] = useState(false);
 
+/*créer fonctions ouvrir modal */
+  function openModal() {
+    setShowModal(true);
+  }
+ 
+
   return (
     <div>
       <Hero />
