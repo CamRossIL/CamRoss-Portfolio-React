@@ -11,8 +11,8 @@ function Home() {
     setShowModal(true);
   }
 
-  function closeModal(){
-    setShowModal(false)
+  function closeModal() {
+    setShowModal(false);
   }
 
   return (
@@ -24,10 +24,10 @@ function Home() {
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
-                <h5 className="modal-title"></h5>
+                <h5 className="modal-title">Mon profil GitHub</h5>
                 <button
                   type="button"
-                  className="btn-close"
+                  className="btn-close btn-close-white"
                   onClick={closeModal}
                   aria-label="Close"
                 ></button>
@@ -36,15 +36,8 @@ function Home() {
                 <p>Modal body text goes here.</p>
               </div>
               <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button type="button" className="btn btn-primary">
-                  Save changes
+                <button className="btn btn-secondary" onClick={closeModal}>
+                  Fermer
                 </button>
               </div>
             </div>
