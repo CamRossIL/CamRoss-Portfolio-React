@@ -33,7 +33,17 @@ function Home() {
                 ></button>
               </div>
               <div className="modal-body">
-                <p>Modal body text goes here.</p>
+                <div className="row">
+                  <div className="col-12 col-md-6"></div>
+                  <div className="col-12 col-md-6">
+                    <p className="border-bottom">1</p>
+                    <p className="border-bottom ">2</p>
+                    <p className="border-bottom ">3</p>
+                    <p className="border-bottom ">4</p>
+                    <p className="border-bottom ">5</p>
+                    <p></p>
+                  </div>
+                </div>
               </div>
               <div className="modal-footer">
                 <button className="btn btn-secondary" onClick={closeModal}>
