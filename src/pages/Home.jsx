@@ -14,6 +14,12 @@ function Home() {
   function closeModal() {
     setShowModal(false);
   }
+  /*créer le state pour stocker données GitHub du user, 
+  initialement il n'y a aucune donnée */
+  const [user, setUser] = useState(null);
+
+  
+  
 
   return (
     <div>
