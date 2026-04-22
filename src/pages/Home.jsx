@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import SectionHome from "../components/SectionHome";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Home() {
   /*créer state affichage modal*/
@@ -14,6 +14,22 @@ function Home() {
   function closeModal() {
     setShowModal(false);
   }
+  /*créer le state pour stocker données GitHub du user, 
+  initialement il n'y a aucune donnée */
+  const [user, setUser] = useState(null);
+
+   /*créer fonction pour aller chercher et stocker les données, puis executér fonction */ 
+/*utiliser useEffect pour que donnees une seule fois au chargement */
+ useEffect(() => {
+    const getUser = async () => {
+      const res = await fetch("https://api.github.com/users/github-john-doe");
+      const json = await res.json();
+      setUser(json);
+    };
+    getUser();
+  }, []);
+
+  
 
   return (
     <div>
