@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import SectionHome from "../components/SectionHome";
 import { useState, useEffect } from "react";
+import Modal from "../components/Modal";
 
 function Home() {
   /*créer state affichage modal*/
