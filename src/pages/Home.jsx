@@ -18,7 +18,14 @@ function Home() {
   initialement il n'y a aucune donnée */
   const [user, setUser] = useState(null);
 
-  
+   /*créer fonction pour aller chercher et stocker les données, puis executér fonction */ 
+    const getUser = async () => {
+      const res = await fetch("https://api.github.com/users/github-john-doe");
+      const json = await res.json();
+      setUser(json);
+    };
+    getUser();
+
   
 
   return (
