@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <div>
-      <Hero />
+      <Hero openModal={openModal} />
       <SectionHome/>
     </div>
   );
