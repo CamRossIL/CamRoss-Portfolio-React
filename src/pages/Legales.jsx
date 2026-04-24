@@ -109,7 +109,10 @@ function Legales() {
                   </p>
                   <p className="fst-italic">
                     Le favicon de ce site a été fourni par{" "}
-                    <a href="https://pixabay.com/fr/" className="fst-italic">
+                    <a
+                      href="https://www.flaticon.com/de/kostenlose-icons/john-doe"
+                      className="fst-italic"
+                    >
                       John Doe icons erstellt von Freepik - Flaticon
                     </a>
                   </p>
