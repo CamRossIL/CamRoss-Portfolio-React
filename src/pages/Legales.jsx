@@ -1,8 +1,12 @@
 import Title from "../components/Title";
+import { Helmet } from "react-helmet-async";
 
 function Legales() {
   return (
     <div>
+      <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
       <Title title="Mentions légales" text="" />
       <div className="container my-5">
         <div className="col-lg-12">
