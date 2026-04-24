@@ -24,7 +24,7 @@ function Portfolio() {
               imgname="freshfood"
               title="Fresh Food"
               text="Site de vente de produits frais en ligne"
-              note="Site réalisé avec PHP et MySQUL"
+              note="Site réalisé avec PHP et MySQL"
             />
           </div>
           <div className="col-12 col-md-4">
@@ -68,8 +68,8 @@ function Portfolio() {
               img={screens}
               imgname="screens"
               title="Maquette d'un site web"
-              text="Création d'un prototipe d'un site"
-              note="Realisé avec FIGMA"
+              text="Création d'un prototype d'un site"
+              note="Réalisé avec FIGMA"
             />
           </div>
         </div>
