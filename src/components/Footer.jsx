@@ -17,7 +17,7 @@ function Footer() {
               className="linkssocials"
               href="https://github.com/github-john-doe"
               target="_blank"
-              rel="noopener noreferrer no follow"
+              rel="noopener noreferrer nofollow"
             >
               <i className="bi bi-github me-3"></i>
             </a>
@@ -26,7 +26,7 @@ function Footer() {
               className="linkssocials"
               href="https://twitter.com"
               target="_blank"
-              rel="noopener noreferrer no follow"
+              rel="noopener noreferrer nofollow"
             >
               <i className="bi bi-twitter me-3"></i>
             </a>
@@ -35,7 +35,7 @@ function Footer() {
               className="linkssocials"
               href="https://linkedin.com"
               target="_blank"
-              rel="noopener noreferrer no follow"
+              rel="noopener noreferrer nofollow"
             >
               <i className="bi bi-linkedin"></i>
             </a>
