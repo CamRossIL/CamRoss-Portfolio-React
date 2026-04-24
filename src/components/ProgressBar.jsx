@@ -17,7 +17,7 @@ function ProgressBar() {
       <div
         className="progress mb-3"
         role="progressbar"
-        aria-label="HTML5"
+        aria-label="CSS3"
         aria-valuenow="80"
         aria-valuemin="0"
         aria-valuemax="100"
@@ -29,7 +29,7 @@ function ProgressBar() {
       <div
         className="progress mb-3"
         role="progressbar"
-        aria-label="HTML5"
+        aria-label="JAVASCRIPT"
         aria-valuenow="70"
         aria-valuemin="0"
         aria-valuemax="100"
@@ -41,7 +41,7 @@ function ProgressBar() {
       <div
         className="progress mb-3"
         role="progressbar"
-        aria-label="HTML5"
+        aria-label="PHP"
         aria-valuenow="60"
         aria-valuemin="0"
         aria-valuemax="100"
@@ -53,7 +53,7 @@ function ProgressBar() {
       <div
         className="progress mb-3"
         role="progressbar"
-        aria-label="HTML5"
+        aria-label="REACT"
         aria-valuenow="50"
         aria-valuemin="0"
         aria-valuemax="100"
