@@ -32,6 +32,7 @@ function Contact() {
                       id="name"
                       className="form-control"
                       placeholder="Votre nom"
+                      required
                     />
                   </div>
 
@@ -48,6 +49,7 @@ function Contact() {
                       id="email"
                       className="form-control"
                       placeholder="Votre adresse email"
+                      required
                     />
                   </div>
 
@@ -61,6 +63,7 @@ function Contact() {
                       id="tel"
                       className="form-control"
                       placeholder="Votre numéro de téléphone"
+                      required
                     />
                   </div>
 
@@ -77,6 +80,7 @@ function Contact() {
                       id="object"
                       className="form-control"
                       placeholder="Sujet"
+                      required
                     />
                   </div>
 
@@ -93,6 +97,7 @@ function Contact() {
                       className="form-control"
                       rows="12"
                       placeholder="Votre message"
+                      required
                     ></textarea>
                   </div>
                   <div className="text-center mt-2">
